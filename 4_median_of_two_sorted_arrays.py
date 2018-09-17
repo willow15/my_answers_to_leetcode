@@ -5,6 +5,8 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        # Rule 1: length of numbers in the left of median is equal to length of numbers in the right
+        # Rule 2: numbers in the left of median are always smaller than numbers in the right
         len1 = len(nums1)
         len2 = len(nums2)
         left_count = (len1 + len2 + 1) / 2
