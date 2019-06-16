@@ -19,7 +19,7 @@ class Solution(object):
             j -= 1
         for i in xrange(n):
             volume = min(left_max_heights[i], right_max_heights[i]) - height[i]
-            if volume >= 0:
+            if volume > 0:
                 water += volume
 
         return water
