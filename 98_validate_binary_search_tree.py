@@ -37,12 +37,12 @@ if __name__ == '__main__':
             if left_val:
                 left = TreeNode(left_val)
                 nodes.append(left)
+                node.left = left
             right_val = input.pop(0)
             if right_val:
                 right = TreeNode(right_val)
                 nodes.append(right)
-            node.left = left
-            node.right = right
+                node.right = right
     else:
         root = None
 
