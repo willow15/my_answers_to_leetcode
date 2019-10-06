@@ -1,3 +1,8 @@
+# Approach 1: list operation
+# Approach 2: hash table
+# Approach 3: 2*(a+b+c) - (a+a+b+b+c) = c
+# Approach 4: a^b^a = a^a^b = 0^b = b (a^0=a, a^a=0)
+
 class Solution(object):
     def singleNumber(self, nums):
         """
